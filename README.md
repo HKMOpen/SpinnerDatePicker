@@ -1,5 +1,8 @@
+
 Spinner DatePicker
 -----
+[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ToggleButtonGroup-blue.svg?style=flat)](https://android-arsenal.com/details/1/4885) [![Download](https://api.bintray.com/packages/jjhesk/maven/spinner-date-picker/images/download.svg)](https://bintray.com/jjhesk/maven/spinner-date-picker/_latestVersion)
+
 
 ## Summary
 
@@ -59,7 +62,7 @@ Add this to your **app level** `build.gradle`:
     
    ```gradle
    dependencies {
-       compile 'com.github.drawers:SpinnerDatePicker:0.0.8'
+       implementation 'com.hkm.ui:spinner-date-picker:0.1.0'
    }
    ```             
 
@@ -84,3 +87,6 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+### Thank you for your support and we will bring more amazing libraries to your productive works. We are accepting bitcoin by the address as below. Please scan the QR code to start
+![wallet](http://s32.postimg.org/sdd1oio1t/qrwallet.jpg)
