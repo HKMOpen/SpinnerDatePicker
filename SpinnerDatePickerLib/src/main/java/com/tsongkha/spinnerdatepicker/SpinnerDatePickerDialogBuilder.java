@@ -48,9 +48,14 @@ public class SpinnerDatePickerDialogBuilder {
         return this;
     }
 
+    public SpinnerDatePickerDialogBuilder yearOptional(boolean b) {
+        this.yearOptional = b;
+        return this;
+    }
+
     public DatePickerDialog build() {
         if (context == null) throw new IllegalArgumentException("Context must not be null");
 
-        return new DatePickerDialog(context, theme, spinnerTheme, callBack, year, monthOfYear, dayOfMonth, false);
+        return new DatePickerDialog(context, theme, spinnerTheme, callBack, year, monthOfYear, dayOfMonth, yearOptional);
     }
 }
